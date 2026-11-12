@@ -1,8 +1,10 @@
 # Epsilon Limited Solutions Homebrew tap
 
 ```sh
-brew install --cask Epsilon-Limited-Solutions/tap/tile
+brew tap Epsilon-Limited-Solutions/tap && brew trust Epsilon-Limited-Solutions/tap && brew install --cask tile
 ```
+
+Homebrew 7 refuses casks from third-party taps until you trust the tap once.
 
 | Cask | What it is |
 |---|---|
